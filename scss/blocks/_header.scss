@@ -1,0 +1,17 @@
+/* SITE HEADER */
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* SITENAV */
+.sitenav {
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+}

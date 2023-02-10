@@ -1,3 +1,39 @@
+/* FONTS */
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFProDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/SFProDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProText-Semibold.woff2") format("woff2"), url("../fonts/SFProText-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Rounded";
+  src: url("../fonts/SFRounded-Ultralight.woff2") format("woff2"), url("../fonts/SFRounded-Ultralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
 /* CUSTOM PROPS */
 :root {
   --primary-bg-color: #fff;
@@ -44,14 +80,6 @@ body {
   background-color: var(--primary-bg-color);
   display: flex;
   flex-direction: column;
-}
-
-/* CONTAINER */
-.container {
-  width: 100%;
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 /* SCROLL BAR */
@@ -107,4 +135,25 @@ body {
   text-decoration: none;
 }
 
-/* RETINA BGS *//*# sourceMappingURL=main.css.map */
+/* RETINA BGS */
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* SITE HEADER */
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* SITENAV */
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=main.css.map */
