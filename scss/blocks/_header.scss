@@ -1,4 +1,8 @@
 /* SITE HEADER */
+.site-header {
+  padding: 23px 0;
+}
+
 .site-header__inner {
   display: flex;
   align-items: center;
@@ -12,6 +16,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
-  }
-  
+  }  
+}
+
+.site-header__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
